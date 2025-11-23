@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1c1c1c;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+body{
+    /* background-color: #2e0000; */
+    color: #000000;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    margin: 0; 
+    padding: 0;
+    overflow-x: hidden;
+    display: flex;
+  margin-bottom: 20px
+}
+
+
+
+
+
+
+
+.container{
+    background-color: #1a1a1a;
+    color: #dcdcdc;
+    padding: 0;
+    width: 100%;
+    
+
+    
+    
+}
+
+.hero-text{
+   color: #dcdcdc; 
+   text-align: center;
+   padding-bottom: 100px;
+   
+   
+}
+
+
+.schedule h4{
+    text-decoration: underline;
+
+}
+
+.gallery{
+    width: 800px;
+    border-radius: 25px;
+    box-shadow: -1px -1px 14px rgb(255, 255, 255);
+
+}
+
+  /* заверни в div */
+
+.advantages{
+    padding-left: 20px;
+}
+
+.learn{
+    padding-left: 20px;
+}
+
+.Gallery-Gym{
+    padding-left: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+
+.schedule{
+    padding-left: 100px;
+    padding-bottom: 100px;
+    padding-top: 30px;
+    float:left ;
+    font-size: 20px;
+    
+}
+
+.contact{
+    float: right;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+}
+
+.photo{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: -1px -1px 14px rgb(255, 255, 255);
+    
+    /* filter: blur(1px); */
+    
+}
+
+.image-text h1{
+    position: absolute;
+    padding-left: 665px;
+    padding-top: 230px;
+    font-size: 50px;
+   color: rgb(78, 4, 4);
+    font-family: "Days One", sans-serif;
+  font-style: normal;
+  
+
+}
+
+.hero-text2{
+    padding-top: 150px;
+    font-size: 20px;
+}
+
+
+
+.advantages{
+    padding-bottom: 300px;
+    padding-top: 200px;
+    margin-left: 70px;
+    font-size: 25px;
+}
+
+.photo-who{
+    width: 700px;
+    float: right;
+/* padding-right: 400px;
+padding-bottom: 50px; */
+border-radius: 25px;
+margin-right: 250px;
+margin-bottom: 400px;
+margin-top: -70px;
+box-shadow: -1px -1px 14px rgb(255, 255, 255);
+}
+
+.advantages li, h2{
+    margin-bottom: 2em;
+}
+
+.learn{
+    padding-bottom: 210px;
+    padding-top: 200px;
+    font-size: 25px;
+    text-align: right;
+    padding-right: 80px;
+
+}
+
+.learn li, h1{
+    margin-bottom: 2em;
+    
+}
+
+
+.learn-image{
+    float: left;
+    width: 900px;
+    border-radius: 25px;
+    margin-left: 40px;
+    box-shadow: -1px -1px 14px rgb(255, 255, 255);
+    
+}
+
+#img{
+    margin-bottom: 10px;
+	margin-right: 10px;
+    margin-left: 70px;
+  float: left;
+}
+
+.Gallery-Gym h2{
+    padding-right: 55px;
+}
+
+.schedule h4{
+    font-size: 30px;
+}
+
+.schedule h1{
+   margin-bottom: 10px;
+}
+
+.contact h2{
+margin-bottom: 10px;
+}
+
+.osminog{
+    position: absolute;
+    width: 100px;
+}
+
+.VK{
+    cursor: pointer;
+    color: #dcdcdc;
+}
+
+.schedule h4{
+    padding-bottom: 10px
+}
+
+.contact h3{
+    padding-bottom: 10px;
+}
+
+
+
+/* ======= МОБИЛЬНАЯ АДАПТАЦИЯ ИДЕАЛЬНАЯ ======= */
+@media (max-width: 768px) {
+
+    html, body {
+        overflow-x: hidden !important;
+    }
+
+    /* ВСЕ КАРТИНКИ – НОРМАЛЬНЫЙ РАЗМЕР */
+    img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    /* Главная фотка */
+    .photo {
+        width: 100% !important;
+        margin: 0 auto !important;
+        display: block !important;
+    }
+
+    /* Логотип-осьминог */
+    .osminog {
+        position: static !important;
+        width: 70px !important;
+        margin: 10px auto !important;
+        display: block !important;
+    }
+
+    /* Заголовок над фото */
+    .image-text h1 {
+        position: static !important;
+        padding: 0 !important;
+        margin: 10px 0 !important;
+        font-size: 28px !important;
+        text-align: center !important;
+    }
+
+    /* Блоки – ровно один под другим */
+    .hero-text,
+    .hero-text2,
+    .advantages,
+    .learn,
+    .Gallery-Gym,
+    .schedule,
+    .contact {
+        width: 100% !important;
+        padding: 15px !important;
+        margin: 0 !important;
+        float: none !important;
+        text-align: center !important;
+    }
+
+    /* Фото кто мы */
+    .photo-who {
+        width: 100% !important;
+        margin: 20px 0 !important;
+        float: none !important;
+    }
+
+    /* Фото чему учим */
+    .learn-image {
+        width: 100% !important;
+        margin: 20px 0 !important;
+        float: none !important;
+    }
+
+    /* Галерея */
+    .gallery,
+    #img {
+        width: 100% !important;
+        margin: 10px 0 !important;
+        float: none !important;
+    }
+
+    /* Текст не огромный */
+    h1 { font-size: 32px !important; }
+    h2 { font-size: 24px !important; }
+    h3 { font-size: 18px !important; }
+    h4 { font-size: 16px !important; }
+    p  { font-size: 16px !important; }
+
+    /* Расписание */
+    .schedule h4 {
+        padding-bottom: 5px !important;
+    }
+
+    /* Контакты */
+    .contact h3 {
+        padding-bottom: 5px !important;
+    }
+
+    /* Убираем тени если слишком ярко */
+    .photo,
+    .photo-who,
+    .learn-image,
+    .gallery {
+        box-shadow: -1px -1px 10px rgba(255,255,255,0.4) !important;
+    }
+
+    /* Контейнер */
+    .container {
+        padding: 0 !important;
+        width: 100% !important;
+    }
+}
